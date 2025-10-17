@@ -23,26 +23,20 @@ Requirements
 - The packages in `requirements.txt` (Streamlit, TensorFlow, Pillow, numpy)
 
 Quick start (Windows PowerShell)
-1) Open PowerShell and change to the project folder:
-
-```powershell
-cd C:\Users\mithr\Desktop\analytica
-```
-
-2) (Optional, recommended) Create and activate a virtual environment:
+1) (Optional, recommended) Create and activate a virtual environment:
 
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
 
-3) Install dependencies:
+2) Install dependencies:
 
 ```powershell
 pip install -r requirements.txt
 ```
 
-4) Place your model files (see the next section), then start the app:
+3) Place your model files (see the next section), then start the app:
 
 ```powershell
 streamlit run app.py
